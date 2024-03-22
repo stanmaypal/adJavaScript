@@ -11,6 +11,7 @@ function myClock()
     const dy=c_d.getDay()
     console.log(dy);
 
+    
     switch(dy)
     {
         case 1:
