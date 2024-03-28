@@ -37,11 +37,12 @@ function myClock()
                                     break;
     }
    // const date_time=`${tody} ${dt}/${mt}/${yt}`;
-
+   const period = hh >= 12 ? 'PM' : 'AM';
+   const hour = hh % 12 || 12; // Convert 24-hour time to 12-hour time format
     //const time=`${hh}:${min}:${sec}`
     const date_time=`${tody} ${dt<10?'0':''}${dt}/${mt<10?'0':''}${mt}/${yt}`;
 
-    const time=`${hh<10 ?'0':''}${hh}:${min<10?'0':''}${min}:${sec<10?'0':''}${sec}`
+    const time=`${hh<10 ?'0':''}${hour}:${min<10?'0':''}${min}:${sec<10?'0':''}${sec}${period}`
     console.log(time)
     document.getElementById("times").textContent=time;
     document.getElementById("d_t").textContent=date_time;
@@ -49,6 +50,6 @@ function myClock()
     document.getElementById('fc').innerHTML="Original Digital Clock"
 
 }
-setInterval(myClock,1000);
+setInterval(myClock,2000);
 
 myClock();

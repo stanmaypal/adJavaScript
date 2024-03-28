@@ -23,7 +23,7 @@ const timet=`${hour<10?'0':''}${hour}:${min}`
 const fullDate=`${day}-${month<10 ? '0':''}${month}-${year}`;
 console.log(fullDate)
 console.log(timet);
-
+ 
 //console.log(Ankush.getMonth()+1)
 
 
