@@ -21,3 +21,4 @@ JavaScript Prototype Notes
 20.	Array.prototype.sort(): Sorts the elements of an array in place and returns the sorted array.
 21.	Array.prototype.splice(): Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 22.	Array.prototype.unshift(): Adds one or more elements to the beginning of an array and returns the new length of the array.   write example all
+    
