@@ -11,7 +11,7 @@
 // newArr.shift()r
 // newArr.shift()
 // console.log(newArr)
-const name="pal@gorakhpur    ";
+const name="pal@gorakhpur";
 
 console.log(name.toUpperCase());
 console.log(name.split("").reverse().join(''))

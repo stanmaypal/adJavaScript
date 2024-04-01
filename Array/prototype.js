@@ -16,4 +16,4 @@ const arr1=["Ankush","SamShad","Sarvesh","Anshika","Arti","Balaji"]
 const arr3=[4,66,45,67,78];
 //const data=arr3.find(arr3=>arr3 >2);
 //console.log(data)
-console.log(arr3.indexOf(67));
+console.log(arr3.indexOf(6));
