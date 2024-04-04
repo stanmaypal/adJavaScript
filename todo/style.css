@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+section
+{
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    background-image: linear-gradient(
+        rgba(0, 0,0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("https://c4.wallpaperflare.com/wallpaper/888/401/127/ai-art-gamer-computer-pc-gaming-hd-wallpaper-preview.jpg")
+    ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+@font-face {
+    font-family: zack;
+    src: url("./Adorable\ Handmade.ttf")format('opentype');
+}
+.box
+{
+    border: 2px solid lightblue;
+    background-image: linear-gradient(
+        rgba(58, 238, 229, 0.4),
+        rgba(125, 220, 37, 0.4)
+    );
+    padding: 50px 100px;
+    border-radius: 0px 50px;
+    box-shadow: 3px 3px 4px ;
+
+}
+h1{
+    font-size: 35px;
+    font-family: zack;
+    color: rgb(206, 226, 25);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    
+}
+input{
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    /* border: ;
+    border-style: 3px solid #000; */
+font-size: 18px;
+color: rgb(243, 16, 16);
+
+}
+#list li
+{
+    list-style-type: none;
+    margin-top: 10px;
+    background-color: aquamarine;
+    text-align: left;
+    padding: 15px;
+    border-radius: 0px 20px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+}
+i{
+    position: absolute;
+    right: 10px;
+}
+.cmptsk
+{
+    text-decoration: line-through;
+    color: red;
+}
